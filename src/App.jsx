@@ -59,7 +59,7 @@ function App() {
       />
 
       {loading && <p>Cargando...</p>}
-      {error && <p style={{ color: "red" }}>{error}</p>}
+      {error && <p>{error}</p>}
 
       {pokemon && <Card pokemon={pokemon} />}
     </div>
